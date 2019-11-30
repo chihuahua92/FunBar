@@ -1,0 +1,32 @@
+.page { 
+	min-height: 200px;
+	margin-top:150px;
+	margin-bottom:30px;
+	overflow: hidden;
+}
+
+.nav-item.dropdown .dropdown-menu { padding: 0; border-radius:5px; overflow:hidden;border:1px solid #FFD306}
+.nav-item.dropdown .dropdown-item {list-style: none; background: black; padding: 10px; display: inline-block;}
+/* .nav-item.dropdown .nav-link {color:white; text-decoration: none;} */
+.nav-item.dropdown .dropdown-menu a{color: #FF9224; text-decoration: none;}
+.nav-item.dropdown .btn {background:black; color:#FF9224;}
+.nav-item.dropdown .btn:hover {background: #D0D0D0; color:#FF9224;}
+.nav-item.dropdown .btn:active {background:#D0D0D0; color:#FF9224;}
+.nav-item.dropdown .btn:focus {background:#D0D0D0; color:#FF9224;}
+.dropdown-menu .dropdown-item {display: inline-block; width: 100%; padding: 10px 5px;}
+.container-fluid .dropdown .dropdown-menu a:hover
+{
+  color: #fff;
+  background-color: #b91773;
+  border-color: #fff;
+}
+
+@media (min-width: 576px) {
+	#createBlog .modal-dialog {
+		max-width: 1600px;
+	}
+
+	#modifyBlog .modal-dialog {
+		max-width: 1600px;
+	}
+}

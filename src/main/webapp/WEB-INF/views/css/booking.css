@@ -1,0 +1,278 @@
+* {
+	padding: 0%;
+	margin: 0%;
+}
+
+body{
+
+background-color:black;
+
+}
+.calendar {
+	overflow: hidden;
+	width: 800px;
+	height: 400px;
+	background-color: #000000;
+	opacity: 0.9;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+	margin: 0 auto;
+	text-align: center;
+	color: orange;
+	border: 3px solid black;
+	border-top: none;
+	font-size: 30px;
+}
+
+.calendar1 {
+	width: 800px;
+	height: 100px;
+	opacity: 0.7;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+	margin: 0 auto;
+	color: orange;
+	text-align: center;
+	padding: 30px auto;
+	font-size: 30px;
+}
+
+.calendar2 {
+	width: 600px;
+	height: 50px;
+	background-color: black;
+	opacity: 0.7;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, .1);
+	border: 5px solid red;
+	border-top: none;
+	margin: 0 auto;
+	color: orange;
+	text-align: center;
+	padding: 30px auto;
+}
+
+.title {
+	height: 20px;
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	position: relative;
+	text-align: center;
+}
+
+#calendar-title {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 14px 0 0 0;
+	color: orange;
+}
+
+#calendar-year {
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: orange;
+}
+
+#pre {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: orange;
+}
+
+#next {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	color: orange;
+}
+
+.body-list ul {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.body-list ul li {
+	list-style: none;
+	display: block;
+	width: 14.28%;
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 28px;
+	margin: 5px auto;
+}
+
+.pink {
+	color: red;
+}
+
+.lightgrey {
+	color: grey;
+	pointer-events: none;
+}
+
+.lightgrey ul li {
+	background-color: orange;
+	color: black;
+}
+
+.darkgrey ul li {
+	font-family: cursive;
+}
+
+.darkgrey {
+	color: white;
+}
+
+.box {
+	border: 1px solid orange;
+	color: white;
+}
+
+.button {
+	display: inline-block;
+	font-family:微軟正黑體;
+	background-color: orange;
+	width: 92px;
+	color: black;
+	text-align: center;
+	height: 40px;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 10px 1em;
+	margin: 5px 10px;
+	border: 2px solid grey;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content:'»';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.button:hover {
+	background-color: red;
+	color: black;
+}
+
+.button:active {
+	background-color: red;
+}
+
+.button:focus {
+	border-style: solid;
+	border-color: orange;
+	background-color: red;
+	box-shadow: 0 0 15px orange;
+	color: black;
+}
+
+.li {
+	display: inline-block;
+	font-family:微軟正黑體;
+}
+
+.li span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.li span:after {
+	content:'»';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.li:hover span {
+	padding-right: 25px;
+}
+
+.li:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.li:hover {
+	color: red;
+	cursor: pointer;
+}
+
+.add {
+	border-style: solid;
+	border-color: orange;
+	background-color: #FFBB66;
+	box-shadow: 0 0 15px orange;
+	color: black;
+}
+
+.remove {
+	background-color: white;
+}
+
+#days li {
+	outline: solid 1px black;
+}
+
+form {
+	float: left;
+}
+
+.input2 {
+	margin: 3px 0;
+	height: 50px;
+	width: 200px;
+	font-size: 15px;
+	font-family:微軟正黑體;
+	font-weight: bold;
+	background-color: black;
+	opacity: 0.7;
+	color: hotpink;
+	border-radius: 25px;
+}
+
+select {
+	width: 800px;
+	font-size: 28px;
+	height: 30px;
+	border-radius: 25px;
+	background-color: black;
+	color: orange;
+	padding: 0 0 0 45%;
+}
+
+a {
+	text-decoration: none;
+}
+
+select::-ms-expand {
+	display: none;
+}

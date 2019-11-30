@@ -1,0 +1,46 @@
+.page { letter-spacing: 2px; line-height: 1.5em;}
+.page span { margin-right: 5px;}
+.page-btn{ font-family:"微軟正黑體"; font-size: 20px; margin-bottom: 5px;}
+.box img { width:100%; height: 100%;}
+.page .imgLabel { cursor: pointer; background-color: #eee; padding: 2px; border-radius: 2px;}
+.blogMargin { margin-bottom: 10px;}
+
+/* create blog modal */
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 1200px;
+    height: 100%;
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Right*/
+.modal.right.fade .modal-dialog {
+    right: -1200px;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+
+.modal.right.fade.show .modal-dialog {
+    right: 0;
+}
+
+/* ----- MODAL STYLE ----- */
+.modal-content {
+    border-radius: 0;
+    border: none;
+    width: 1200px;
+}
+
+.modal-header {
+    border-bottom-color: #EEEEEE;
+    background-color: #FAFAFA;
+}
